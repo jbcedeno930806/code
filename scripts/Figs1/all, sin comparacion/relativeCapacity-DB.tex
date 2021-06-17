@@ -1,0 +1,115 @@
+% This file was created by tikzplotlib v0.9.4.
+\begin{tikzpicture}
+
+\definecolor{color0}{rgb}{0.12156862745098,0.466666666666667,0.705882352941177}
+\definecolor{color1}{rgb}{1,0.498039215686275,0.0549019607843137}
+\definecolor{color2}{rgb}{0.172549019607843,0.627450980392157,0.172549019607843}
+\definecolor{color3}{rgb}{0.83921568627451,0.152941176470588,0.156862745098039}
+\definecolor{color4}{rgb}{0.580392156862745,0.403921568627451,0.741176470588235}
+\definecolor{color5}{rgb}{0.549019607843137,0.337254901960784,0.294117647058824}
+
+\begin{axis}[
+height=7.5cm,
+legend cell align={left},
+legend columns=10,
+legend style={fill opacity=0.8, draw opacity=1, text opacity=1, at={(0.5,-0.05)}, anchor=north, draw=white!80!black},
+tick align=outside,
+tick pos=left,
+width=8.25cm,
+x grid style={white!69.0196078431373!black},
+xmajorgrids,
+xmin=-0.45, xmax=9.45,
+xtick style={color=black},
+y grid style={white!69.0196078431373!black},
+ylabel={relativeCapacity},
+ymajorgrids,
+ymin=-834.2665, ymax=55682.3365,
+ytick style={color=black}
+]
+\addplot [semithick, color0]
+table {%
+0 42960.93
+1 36763.74
+2 35698.71
+3 35929.68
+4 35836.8
+5 53113.4
+6 46743.84
+7 43496.36
+8 43990.87
+9 43736.11
+};
+\addlegendentry{ARPANet}
+\addplot [semithick, color1]
+table {%
+0 20494.16
+1 18656.04
+2 17636.03
+3 17752.42
+4 17688.72
+5 25209.03
+6 23406.95
+7 20559.42
+8 20941.37
+9 20796.35
+};
+\addlegendentry{EON}
+\addplot [semithick, color2]
+table {%
+0 2099.31
+1 1816.72
+2 1734.67
+3 1747.57
+4 1738.49
+5 2475.36
+6 2182.57
+7 1928.13
+8 1962.37
+9 1950.08
+};
+\addlegendentry{EUROCORE}
+\addplot [semithick, color3]
+table {%
+0 21397.58
+1 15155.72
+2 15057.33
+3 15445.05
+4 15301.74
+5 24814.18
+6 16751.55
+7 16476.82
+8 17136.12
+9 16949.45
+};
+\addlegendentry{ITALIANA}
+\addplot [semithick, color4]
+table {%
+0 12568.73
+1 11340.5
+2 10665.06
+3 10655.91
+4 10630.09
+5 14760.02
+6 13659.88
+7 12562.66
+8 12677.42
+9 12644.7
+};
+\addlegendentry{NSFNet}
+\addplot [semithick, color5]
+table {%
+0 17334.99
+1 12391.32
+2 10452.9
+3 10461.79
+4 10432.99
+5 21400.16
+6 15588.89
+7 11854.55
+8 12004.61
+9 11932.73
+};
+\addlegendentry{UKNet}
+\end{axis}
+
+\end{tikzpicture}

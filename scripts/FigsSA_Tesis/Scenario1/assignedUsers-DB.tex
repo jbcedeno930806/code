@@ -1,0 +1,120 @@
+% This file was created by tikzplotlib v0.9.4.
+\begin{tikzpicture}
+
+\definecolor{color0}{rgb}{0.12156862745098,0.466666666666667,0.705882352941177}
+\definecolor{color1}{rgb}{1,0.498039215686275,0.0549019607843137}
+\definecolor{color2}{rgb}{0.172549019607843,0.627450980392157,0.172549019607843}
+\definecolor{color3}{rgb}{0.83921568627451,0.152941176470588,0.156862745098039}
+\definecolor{color4}{rgb}{0.580392156862745,0.403921568627451,0.741176470588235}
+
+\begin{axis}[
+height=7.5cm,
+legend cell align={left},
+legend columns=14,
+legend style={fill opacity=0.8, draw opacity=1, text opacity=1, at={(0.5,-0.05)}, anchor=north, draw=white!80!black},
+tick align=outside,
+tick pos=left,
+width=8.25cm,
+x grid style={white!69.0196078431373!black},
+xmajorgrids,
+xmin=-0.65, xmax=13.65,
+xtick style={color=black},
+y grid style={white!69.0196078431373!black},
+ylabel={assignedUsers},
+ymajorgrids,
+ymin=128.5515, ymax=433.8785,
+ytick style={color=black}
+]
+\addplot [semithick, color0]
+table {%
+0 178.89
+1 177.12
+2 332.58
+3 332.16
+4 332.2
+5 171.33
+6 174.87
+7 175.06
+8 331.56
+9 331.97
+10 331.97
+11 177.71
+12 180.63
+13 180.3
+};
+\addlegendentry{ARPANet}
+\addplot [semithick, color1]
+table {%
+0 319.91
+1 346.44
+2 375.59
+3 375.63
+4 375.62
+5 364.58
+6 363.21
+7 364.21
+8 374.16
+9 374.77
+10 374.87
+11 358.67
+12 361.1
+13 361.71
+};
+\addlegendentry{EON}
+\addplot [semithick, color2]
+table {%
+0 305.01
+1 415.13
+2 418.48
+3 418.14
+4 418.55
+5 418.42
+6 417.11
+7 418.01
+8 417.85
+9 417.86
+10 417.91
+11 416.29
+12 415.96
+13 416.27
+};
+\addlegendentry{ITALIANA}
+\addplot [semithick, color3]
+table {%
+0 142.43
+1 160.21
+2 177.84
+3 177.78
+4 177.83
+5 166.14
+6 165.79
+7 165.97
+8 177.23
+9 177.21
+10 177.26
+11 163.35
+12 163.58
+13 163.61
+};
+\addlegendentry{NSFNet}
+\addplot [semithick, color4]
+table {%
+0 341.13
+1 417.08
+2 420
+3 420
+4 420
+5 420
+6 420
+7 420
+8 420
+9 420
+10 419.99
+11 420
+12 420
+13 420
+};
+\addlegendentry{UKNet}
+\end{axis}
+
+\end{tikzpicture}

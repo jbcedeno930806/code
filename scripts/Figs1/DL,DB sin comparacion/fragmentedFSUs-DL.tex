@@ -1,0 +1,85 @@
+% This file was created by tikzplotlib v0.9.4.
+\begin{tikzpicture}
+
+\definecolor{color0}{rgb}{0.12156862745098,0.466666666666667,0.705882352941177}
+\definecolor{color1}{rgb}{1,0.498039215686275,0.0549019607843137}
+\definecolor{color2}{rgb}{0.172549019607843,0.627450980392157,0.172549019607843}
+\definecolor{color3}{rgb}{0.83921568627451,0.152941176470588,0.156862745098039}
+\definecolor{color4}{rgb}{0.580392156862745,0.403921568627451,0.741176470588235}
+\definecolor{color5}{rgb}{0.549019607843137,0.337254901960784,0.294117647058824}
+
+\begin{axis}[
+height=7.5cm,
+legend cell align={left},
+legend columns=5,
+legend style={fill opacity=0.8, draw opacity=1, text opacity=1, at={(0.5,-0.05)}, anchor=north, draw=white!80!black},
+tick align=outside,
+tick pos=left,
+width=8.25cm,
+x grid style={white!69.0196078431373!black},
+xmajorgrids,
+xmin=-0.2, xmax=4.2,
+xtick style={color=black},
+y grid style={white!69.0196078431373!black},
+ylabel={fragmentedFSUs},
+ymajorgrids,
+ymin=-800.5295, ymax=23206.5195,
+ytick style={color=black}
+]
+\addplot [semithick, color0]
+table {%
+0 22115.29
+1 16652.53
+2 16010.12
+3 16241.09
+4 16148.21
+};
+\addlegendentry{ARPANet}
+\addplot [semithick, color1]
+table {%
+0 8476.34
+1 6973.8
+2 6406.62
+3 6523.01
+4 6459.31
+};
+\addlegendentry{EON}
+\addplot [semithick, color2]
+table {%
+0 481
+1 329.47
+2 290.7
+3 303.6
+4 294.52
+};
+\addlegendentry{EUROCORE}
+\addplot [semithick, color3]
+table {%
+0 11425.52
+1 5303
+2 5670.18
+3 6057.9
+4 5914.59
+};
+\addlegendentry{ITALIANA}
+\addplot [semithick, color4]
+table {%
+0 4757.41
+1 3851.98
+2 3759.38
+3 3750.23
+4 3724.41
+};
+\addlegendentry{NSFNet}
+\addplot [semithick, color5]
+table {%
+0 8252.63
+1 4084.03
+2 3487.45
+3 3496.34
+4 3467.54
+};
+\addlegendentry{UKNet}
+\end{axis}
+
+\end{tikzpicture}

@@ -1,0 +1,120 @@
+% This file was created by tikzplotlib v0.9.4.
+\begin{tikzpicture}
+
+\definecolor{color0}{rgb}{0.12156862745098,0.466666666666667,0.705882352941177}
+\definecolor{color1}{rgb}{1,0.498039215686275,0.0549019607843137}
+\definecolor{color2}{rgb}{0.172549019607843,0.627450980392157,0.172549019607843}
+\definecolor{color3}{rgb}{0.83921568627451,0.152941176470588,0.156862745098039}
+\definecolor{color4}{rgb}{0.580392156862745,0.403921568627451,0.741176470588235}
+
+\begin{axis}[
+height=7.5cm,
+legend cell align={left},
+legend columns=14,
+legend style={fill opacity=0.8, draw opacity=1, text opacity=1, at={(0.5,-0.05)}, anchor=north, draw=white!80!black},
+tick align=outside,
+tick pos=left,
+width=8.25cm,
+x grid style={white!69.0196078431373!black},
+xmajorgrids,
+xmin=-0.65, xmax=13.65,
+xtick style={color=black},
+y grid style={white!69.0196078431373!black},
+ylabel={unassignedFSU\_per\_ciento},
+ymajorgrids,
+ymin=-2.549, ymax=53.529,
+ytick style={color=black}
+]
+\addplot [semithick, color0]
+table {%
+0 50.98
+1 46.98
+2 49.98
+3 50.03
+4 50.1
+5 45.76
+6 45.48
+7 45.59
+8 50.3
+9 50.22
+10 50.1
+11 45.46
+12 45.51
+13 45.48
+};
+\addlegendentry{ARPANet}
+\addplot [semithick, color1]
+table {%
+0 9.59
+1 6.95
+2 7.4
+3 7.36
+4 7.39
+5 2.61
+6 2.68
+7 2.51
+8 8.55
+9 7.83
+10 7.76
+11 3.86
+12 3.27
+13 3.2
+};
+\addlegendentry{EON}
+\addplot [semithick, color2]
+table {%
+0 22.4
+1 0.53
+2 2.05
+3 2.54
+4 1.97
+5 0.34
+6 0.53
+7 0.4
+8 3.05
+9 2.97
+10 2.87
+11 0.69
+12 0.76
+13 0.72
+};
+\addlegendentry{ITALIANA}
+\addplot [semithick, color3]
+table {%
+0 13.81
+1 8.69
+2 10.87
+3 10.92
+4 10.82
+5 4.82
+6 5.01
+7 4.96
+8 12.31
+9 12.32
+10 12.2
+11 6.08
+12 6.04
+13 6.02
+};
+\addlegendentry{NSFNet}
+\addplot [semithick, color4]
+table {%
+0 11.36
+1 0.38
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0.01
+11 0
+12 0
+13 0
+};
+\addlegendentry{UKNet}
+\end{axis}
+
+\end{tikzpicture}

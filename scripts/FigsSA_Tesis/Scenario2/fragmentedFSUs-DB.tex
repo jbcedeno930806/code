@@ -1,0 +1,139 @@
+% This file was created by tikzplotlib v0.9.4.
+\begin{tikzpicture}
+
+\definecolor{color0}{rgb}{0.12156862745098,0.466666666666667,0.705882352941177}
+\definecolor{color1}{rgb}{1,0.498039215686275,0.0549019607843137}
+\definecolor{color2}{rgb}{0.172549019607843,0.627450980392157,0.172549019607843}
+\definecolor{color3}{rgb}{0.83921568627451,0.152941176470588,0.156862745098039}
+\definecolor{color4}{rgb}{0.580392156862745,0.403921568627451,0.741176470588235}
+\definecolor{color5}{rgb}{0.549019607843137,0.337254901960784,0.294117647058824}
+
+\begin{axis}[
+height=7.5cm,
+legend cell align={left},
+legend columns=14,
+legend style={fill opacity=0.8, draw opacity=1, text opacity=1, at={(0.5,-0.05)}, anchor=north, draw=white!80!black},
+tick align=outside,
+tick pos=left,
+width=8.25cm,
+x grid style={white!69.0196078431373!black},
+xmajorgrids,
+xmin=-0.65, xmax=13.65,
+xtick style={color=black},
+y grid style={white!69.0196078431373!black},
+ylabel={fragmentedFSUs},
+ymajorgrids,
+ymin=-1105.44, ymax=33856.96,
+ytick style={color=black}
+]
+\addplot [semithick, color0]
+table {%
+0 32267.76
+1 26632.63
+2 14987.73
+3 15661.37
+4 15568.93
+5 23542.66
+6 24015.44
+7 23793.81
+8 15343.8
+9 15896.44
+10 15778.5
+11 24966.11
+12 25237.38
+13 24997.26
+};
+\addlegendentry{ARPANet}
+\addplot [semithick, color1]
+table {%
+0 13191.21
+1 11724.71
+2 5894.28
+3 6063.54
+4 6057.73
+5 9174.64
+6 9587.83
+7 9418.64
+8 6107.05
+9 6085.5
+10 6065.92
+11 9818.22
+12 9805.56
+13 9723.68
+};
+\addlegendentry{EON}
+\addplot [semithick, color2]
+table {%
+0 857.05
+1 695.32
+2 483.76
+3 517.52
+4 505.25
+5 483.76
+6 517.52
+7 505.25
+8 515.85
+9 556.18
+10 543.4
+11 516.02
+12 556.18
+13 543.4
+};
+\addlegendentry{EUROCORE}
+\addplot [semithick, color3]
+table {%
+0 14842.12
+1 6898.83
+2 5557.15
+3 6068.51
+4 5962.13
+5 6741.15
+6 7366.69
+7 7187.32
+8 5823.97
+9 6246.16
+10 6175.24
+11 7223.73
+12 7763.87
+13 7646.27
+};
+\addlegendentry{ITALIANA}
+\addplot [semithick, color4]
+table {%
+0 6948.7
+1 6171.36
+2 3208.81
+3 3266.45
+4 3261.25
+5 5576.6
+6 5691.15
+7 5662.51
+8 3363.79
+9 3390.51
+10 3383.43
+11 5913.46
+12 5948.56
+13 5939.94
+};
+\addlegendentry{NSFNet}
+\addplot [semithick, color5]
+table {%
+0 12317.8
+1 7281.6
+2 3773.01
+3 3774.08
+4 3754.04
+5 4764.27
+6 4904.98
+7 4853.75
+8 4000.61
+9 3944.72
+10 3958.72
+11 5232.4
+12 5240.46
+13 5203.37
+};
+\addlegendentry{UKNet}
+\end{axis}
+
+\end{tikzpicture}

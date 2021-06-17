@@ -1,0 +1,120 @@
+% This file was created by tikzplotlib v0.9.4.
+\begin{tikzpicture}
+
+\definecolor{color0}{rgb}{0.12156862745098,0.466666666666667,0.705882352941177}
+\definecolor{color1}{rgb}{1,0.498039215686275,0.0549019607843137}
+\definecolor{color2}{rgb}{0.172549019607843,0.627450980392157,0.172549019607843}
+\definecolor{color3}{rgb}{0.83921568627451,0.152941176470588,0.156862745098039}
+\definecolor{color4}{rgb}{0.580392156862745,0.403921568627451,0.741176470588235}
+
+\begin{axis}[
+height=7.5cm,
+legend cell align={left},
+legend columns=14,
+legend style={fill opacity=0.8, draw opacity=1, text opacity=1, at={(0.5,-0.05)}, anchor=north, draw=white!80!black},
+tick align=outside,
+tick pos=left,
+width=8.25cm,
+x grid style={white!69.0196078431373!black},
+xmajorgrids,
+xmin=-0.65, xmax=13.65,
+xtick style={color=black},
+y grid style={white!69.0196078431373!black},
+ylabel={assignedUsers},
+ymajorgrids,
+ymin=155.085, ymax=432.615,
+ytick style={color=black}
+]
+\addplot [semithick, color0]
+table {%
+0 272.79
+1 293.41
+2 336.81
+3 337.18
+4 337.07
+5 286.45
+6 289.26
+7 290.26
+8 336.03
+9 335.99
+10 336.19
+11 289.78
+12 289.39
+13 289.73
+};
+\addlegendentry{ARPANet}
+\addplot [semithick, color1]
+table {%
+0 359.04
+1 367.77
+2 374.97
+3 374.95
+4 374.93
+5 372.51
+6 372.8
+7 372.93
+8 373.86
+9 374.11
+10 374.33
+11 369.88
+12 371.11
+13 371.27
+};
+\addlegendentry{EON}
+\addplot [semithick, color2]
+table {%
+0 353.67
+1 416.83
+2 418.46
+3 418.23
+4 418.35
+5 418.61
+6 418.07
+7 418.37
+8 417.84
+9 417.82
+10 417.94
+11 417.48
+12 417.43
+13 417.72
+};
+\addlegendentry{ITALIANA}
+\addplot [semithick, color3]
+table {%
+0 167.7
+1 173.44
+2 177.29
+3 177.36
+4 177.42
+5 176.23
+6 176.68
+7 176.58
+8 176.81
+9 177.02
+10 176.94
+11 175.66
+12 175.77
+13 175.78
+};
+\addlegendentry{NSFNet}
+\addplot [semithick, color4]
+table {%
+0 404.59
+1 419.13
+2 420
+3 420
+4 420
+5 420
+6 420
+7 420
+8 420
+9 420
+10 420
+11 420
+12 420
+13 420
+};
+\addlegendentry{UKNet}
+\end{axis}
+
+\end{tikzpicture}

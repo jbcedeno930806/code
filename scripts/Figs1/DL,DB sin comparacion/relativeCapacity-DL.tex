@@ -1,0 +1,85 @@
+% This file was created by tikzplotlib v0.9.4.
+\begin{tikzpicture}
+
+\definecolor{color0}{rgb}{0.12156862745098,0.466666666666667,0.705882352941177}
+\definecolor{color1}{rgb}{1,0.498039215686275,0.0549019607843137}
+\definecolor{color2}{rgb}{0.172549019607843,0.627450980392157,0.172549019607843}
+\definecolor{color3}{rgb}{0.83921568627451,0.152941176470588,0.156862745098039}
+\definecolor{color4}{rgb}{0.580392156862745,0.403921568627451,0.741176470588235}
+\definecolor{color5}{rgb}{0.549019607843137,0.337254901960784,0.294117647058824}
+
+\begin{axis}[
+height=7.5cm,
+legend cell align={left},
+legend columns=5,
+legend style={fill opacity=0.8, draw opacity=1, text opacity=1, at={(0.5,-0.05)}, anchor=north, draw=white!80!black},
+tick align=outside,
+tick pos=left,
+width=8.25cm,
+x grid style={white!69.0196078431373!black},
+xmajorgrids,
+xmin=-0.2, xmax=4.2,
+xtick style={color=black},
+y grid style={white!69.0196078431373!black},
+ylabel={relativeCapacity},
+ymajorgrids,
+ymin=-326.643, ymax=45022.243,
+ytick style={color=black}
+]
+\addplot [semithick, color0]
+table {%
+0 42960.93
+1 36763.74
+2 35698.71
+3 35929.68
+4 35836.8
+};
+\addlegendentry{ARPANet}
+\addplot [semithick, color1]
+table {%
+0 20494.16
+1 18656.04
+2 17636.03
+3 17752.42
+4 17688.72
+};
+\addlegendentry{EON}
+\addplot [semithick, color2]
+table {%
+0 2099.31
+1 1816.72
+2 1734.67
+3 1747.57
+4 1738.49
+};
+\addlegendentry{EUROCORE}
+\addplot [semithick, color3]
+table {%
+0 21397.58
+1 15155.72
+2 15057.33
+3 15445.05
+4 15301.74
+};
+\addlegendentry{ITALIANA}
+\addplot [semithick, color4]
+table {%
+0 12568.73
+1 11340.5
+2 10665.06
+3 10655.91
+4 10630.09
+};
+\addlegendentry{NSFNet}
+\addplot [semithick, color5]
+table {%
+0 17334.99
+1 12391.32
+2 10452.9
+3 10461.79
+4 10432.99
+};
+\addlegendentry{UKNet}
+\end{axis}
+
+\end{tikzpicture}
