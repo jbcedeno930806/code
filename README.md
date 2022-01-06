@@ -1,2 +1,1 @@
-# RP-RMLSA-Simulator
-Solución del problema RP-RMLSA en redes ópticas elásticas estáticas
+A Bandwidth-Balanced RMLSA solution for static elastic optical network: a two stages approach
